@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: YOUR-LIVE-WEBSITE-URL/sitemap.xml
+Sitemap: https://nomvuladladla1-oss.github.io/minelethu-baby-emporium_POE_WEDE5020//sitemap.xml
