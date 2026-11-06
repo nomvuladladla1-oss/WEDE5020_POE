@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Enquiry | Minelethu Baby Emporium</title>
+
+    <!--Creating a link to a file that will host my css styling sheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <h1>Minelethu Baby Emporium</h1>
+            <p>A brand of MGM Holdings</p>
+        </div>
+
+        <!-- Main navigation between each page -->
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Product Enquiry</h2>
+
+            <p>
+                Complete the form below if you would like more information
+                about a product, quantity or availability.
+            </p>
+
+            <!-- Product Enquiry Form -->
+            <form id="enquiry-form" action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Your Details</legend>
+
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="e.g. 0821234567"
+                            required>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Product Information</legend>
+
+                    <div class="form-group">
+                        <label for="category">Product Category:</label>
+
+                        <select id="category" name="category" required>
+                            <option value="">Select a category</option>
+                            <option value="wear">Essential Baby Wear</option>
+                            <option value="feeding">Feeding &amp; Nutrition Support</option>
+                            <option value="hygiene">Sanitary &amp; Hygiene</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">Product Name:</label>
+                        <input
+                            type="text"
+                            id="product"
+                            name="product"
+                            placeholder="Enter the product name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Quantity:</label>
+                        <input
+                            type="number"
+                            id="quantity"
+                            name="quantity"
+                            min="1"
+                            value="1"
+                            required>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Enquiry Details</legend>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell us what you would like to know."
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-method">
+                            Preferred Contact Method:
+                        </label>
+
+                        <select
+                            id="contact-method"
+                            name="contact-method"
+                            required>
+
+                            <option value="">Select an option</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit">Submit Enquiry</button>
+
+                <!-- JavaScript feedback will be displayed here in Part 3 -->
+                <p id="form-message" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Minelethu Baby Emporium</p>
+        <p>A brand of MGM Holdings</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

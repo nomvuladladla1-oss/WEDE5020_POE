@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Minelethu Baby Emporium</title>
+
+    <!--Creating a link to a file that will host my css styling sheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <div class="brand">
+            <h1>Minelethu Baby Emporium</h1>
+            <p>A brand of MGM Holdings</p>
+        </div>
+
+        <!-- Main navigation between each page -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact Introduction -->
+        <section>
+            <h2>Contact Us</h2>
+
+            <p>
+                We would love to hear from you. Use the form below
+                for general questions, feedback or other messages
+                relating to Minelethu Baby Emporium.
+            </p>
+
+            <p>
+                If your question is about a specific product,
+                quantity or availability, please use our
+                <a href="enquiry.html">Product Enquiry Form</a>.
+            </p>
+        </section>
+
+        <!-- Contact Details -->
+        <section>
+            <h2>Our Contact Details</h2>
+
+            <p>
+                <strong>Email:</strong>
+                info@minelethubabyemporium.co.za<br>
+           
+                <strong>Telephone:</strong>
+                011 000 0000<br>
+
+                <strong>CellPhone</strong>
+                072 223 789
+            </p>
+
+            <p>
+                <strong>Operating Hours:</strong><br>
+                Monday to Friday: 08:00 - 17:00<br>
+                Saturday: 09:00 - 14:00<br>
+                Sunday and Public Holidays: Closed
+            </p>
+        </section>
+
+        <!--Our Business Locations -->
+        <section>
+            <h2>Our Locations</h2>
+
+            <article>
+                <h3>Johannesburg</h3>
+
+                <p>Johannesburg, Gauteng<br>
+                    South Africa</p>
+            </article>
+            <p> Detailed map information will be added during the website development phase.</p>
+        </section>
+
+        <!-- General Contact Form -->
+        <section>
+            <h2>Send Us a Message</h2>
+
+            <form id="contact-form" action="#" method="post">
+
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <div class="form-group">
+                        <label for="contact-name">
+                            Full Name:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contact-name"
+                            name="contact-name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-email">
+                            Email Address:
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contact-email"
+                            name="contact-email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-phone">
+                            Phone Number:
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="contact-phone"
+                            name="contact-phone"
+                            placeholder="e.g. 0821234567">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Your Message</legend>
+
+                    <div class="form-group">
+                        <label for="message-type">
+                            Type of Message:
+                        </label>
+
+                        <select
+                            id="message-type"
+                            name="message-type"
+                            required>
+
+                            <option value="">Select an option</option>
+                            <option value="general">
+                                General Enquiry
+                            </option>
+                            <option value="feedback">
+                                Feedback
+                            </option>
+                            <option value="compliment">
+                                Compliment
+                            </option>
+                            <option value="complaint">
+                                Complaint
+                            </option>
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-message">
+                            Message:
+                        </label>
+
+                        <textarea
+                            id="contact-message"
+                            name="contact-message"
+                            rows="6"
+                            placeholder="Type your message here"
+                            required></textarea>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <!-- JavaScript feedback will appear here in Part 3 -->
+                <p id="contact-form-message"
+                   aria-live="polite"></p>
+
+            </form>
+        </section>
+
+        <!-- Product Enquiry Link -->
+        <section>
+            <h2>Looking for a Product?</h2>
+
+            <p>
+                If you want to ask about a baby product,
+                quantity or availability, use our product
+                enquiry page.
+            </p>
+
+            <a href="enquiry.html" class="button">
+                Make a Product Enquiry
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>&copy; 2026 Minelethu Baby Emporium</p>
+        <p>A brand of MGM Holdings</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
