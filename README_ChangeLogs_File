@@ -1,0 +1,112 @@
+# Changelog
+
+The changelog records the main changes and improvements made to the Minelethu Baby Emporium website during each phase of the POE.
+
+
+## Part 1 - Planning and HTML Development
+
+### Initial Development
+
+- Created the Minelethu Baby Emporium website proposal.
+- Selected Minelethu Baby Emporium as the preferred website concept.
+- Established MGM Holdings as the parent brand.
+- Defined the website target audience as new and expecting parents, guardians and gift buyers.
+- Created the website sitemap and basic wireframes.
+- Created the initial GitHub repository and project folder structure.
+- Created five HTML pages:
+  - `index.html`
+  - `about.html`
+  - `products.html`
+  - `enquiry.html`
+  - `contact.html`
+- Created the same navigation menu across all five pages.
+- Added the Minelethu Baby Emporium business background.
+- Added the mission, vision and values.
+- Added the three main product categories:
+  - Essential Baby Wear
+  - Feeding and Nutrition Support
+  - Sanitary and Hygiene Essentials
+- Added product enquiry and general contact forms.
+- Added the website footer and MGM Holdings branding.
+- Added HTML comments to explain the main sections of the code.
+- Tested the links between the five website pages.
+
+
+## Part 2 - CSS and Responsive Design
+
+### Styling and Visual Improvements
+
+- Created an external stylesheet called `style.css`.
+- Linked the same stylesheet to all five HTML pages.
+- Added a CSS reset to create consistent spacing across the website.
+- Added the Minelethu Baby Emporium colour palette:
+  - Soft Sage `#A8BFA3`
+  - Warm Cream `#FFF8EE`
+  - Muted Peach `#E8A58D`
+  - Dark Charcoal `#263238`
+- Centred the main website headings, paragraphs, navigation and content.
+- Styled the header and navigation menu.
+- Added hover, focus and active states to navigation links and buttons.
+- Added button styling for calls to action such as **Enquire Now** and **View Our Products**.
+- Used CSS Grid to organise product and category cards.
+- Used Flexbox for navigation and other website layout elements.
+- Styled the About page, product cards, forms and footer.
+- Added borders, rounded corners and box shadows to improve the visual design.
+- Added product images for baby wear, feeding products and hygiene products.
+- Added `alt` descriptions to product images to improve accessibility.
+- Added responsive image styling.
+- Added a tablet breakpoint at `900px`.
+- Added a mobile breakpoint at `600px`.
+- Changed product layouts from three columns on desktop to two columns on tablet and one column on mobile.
+- Updated buttons and navigation for smaller screens.
+- Tested the website layout across desktop, tablet and mobile screen sizes.
+
+
+## Part 3 - JavaScript and Final Website Development
+
+### JavaScript Functionality
+
+- Created the external JavaScript file called `script.js`.
+- Linked the JavaScript file to the website pages.
+- Added JavaScript validation to the Product Enquiry form.
+- Added validation for:
+  - Required fields
+  - Email addresses
+  - Phone numbers
+  - Product categories
+  - Product quantities
+  - Messages
+  - Preferred contact methods
+- Added JavaScript validation to the Contact form.
+- Added success messages when forms pass validation.
+- Added error messages when information is missing or incorrect.
+- Added product search functionality to the Products page.
+- Added product category filtering.
+- Added `data-category` attributes to product cards to support filtering.
+- Added JavaScript feedback areas to the Enquiry and Contact pages.
+
+
+### SEO and Accessibility Improvements
+
+- Added descriptive page titles to the HTML pages.
+- Added meta descriptions to support basic SEO.
+- Used a clear heading structure with `h1`, `h2` and `h3` headings.
+- Added descriptive alternative text to website images.
+- Used semantic HTML elements such as `header`, `nav`, `main`, `section`, `article` and `footer`.
+- Used labels for form fields to improve accessibility.
+- Used `aria-live` for JavaScript form feedback messages.
+
+
+### Testing and Final Improvements
+
+- Tested navigation between all five pages.
+- Tested product links and Enquiry buttons.
+- Tested the product search function.
+- Tested the product category filter.
+- Tested the Product Enquiry form validation.
+- Tested the Contact form validation.
+- Checked success and error messages.
+- Checked images and image paths.
+- Tested the website on desktop, tablet and mobile layouts.
+- Checked that the website content matches the approved Minelethu Baby Emporium proposal.
+- Updated the README file to reflect the final website development.
