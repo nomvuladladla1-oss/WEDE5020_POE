@@ -323,7 +323,10 @@ The complete reference information will be updated as the project develops.
 - Added Contact form validation.
 - Added success and error feedback messages.
 
+Screenshot for desktop and mobile device
 - ![Uploading image.png…]()
+- <img width="1080" height="2340" alt="Screenshot_for Website_Samsung Browser" src="https://github.com/user-attachments/assets/efaf521e-0a02-408f-8ed9-b93d849465d5" />
+
 
 
 ---
