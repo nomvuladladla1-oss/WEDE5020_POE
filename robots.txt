@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: YOUR-LIVE-WEBSITE-URL/sitemap.xml
