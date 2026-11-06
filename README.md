@@ -251,7 +251,7 @@ The third phase focuses on:
 ---
 
 ## Testing
-The website will be tested to check:
+The website was tested to check:
 - Navigation links
 - Page loading
 - Images
