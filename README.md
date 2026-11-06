@@ -323,6 +323,9 @@ The complete reference information will be updated as the project develops.
 - Added Contact form validation.
 - Added success and error feedback messages.
 
+- ![Uploading image.png…]()
+
+
 ---
 
 ## Author
