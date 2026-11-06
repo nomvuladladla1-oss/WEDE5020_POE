@@ -110,3 +110,27 @@ The changelog records the main changes and improvements made to the Minelethu Ba
 - Tested the website on desktop, tablet and mobile layouts.
 - Checked that the website content matches the approved Minelethu Baby Emporium proposal.
 - Updated the README file to reflect the final website development.
+
+## New changes
+
+## Improvements from Part 1 to Part 2
+
+- Added an external CSS stylesheet and linked it to all five HTML pages.
+- Updated the original plain HTML layout with the approved sage, cream,
+  peach and charcoal colour palette.
+- Changed product sections into responsive CSS Grid cards.
+- Added Flexbox navigation.
+- Added hover, focus and active states.
+- Added tablet and mobile breakpoints.
+- Added responsive product images.
+
+## Improvements from Part 2 to Part 3
+
+- Added JavaScript form validation.
+- Added product search.
+- Added product category filtering.
+- Added user-specific enquiry feedback.
+- Added SEO improvements.
+- Added robots.txt and sitemap.xml.
+- Added final responsive testing evidence.
+- Published the website using GitHub Pages.
